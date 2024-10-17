@@ -6,6 +6,11 @@ on:
 
 jobs: 
     Update-version:
+        permissions:
+          # Give the default GITHUB_TOKEN write permission to commit and push the
+          # added or changed files to the repository.
+          contents: write
+
         runs-on : ubuntu-latest
         steps:
             - uses: actions/checkout@v4
