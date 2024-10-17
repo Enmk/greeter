@@ -9,8 +9,9 @@ jobs:
         runs-on : ubuntu-latest
         steps:
             - uses: actions/checkout@v4
+
             - name: Bump version
-            - run: |
+              run: |
                 str=$(sed -n '/#define GREETER_VERSION_PATCH/p' version.h)
                 value=${str#*PATCH}
                 newVersion=$((value+1))
