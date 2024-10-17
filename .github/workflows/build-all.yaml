@@ -10,7 +10,7 @@ jobs:
                 submodules: true
             - run: |
                 mkdir build && cd build
-                cmake .. -GNinja
+                cmake .. -G"Unix Makefiles"
                 cmake --build . --target all
 
 
