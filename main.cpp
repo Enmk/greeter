@@ -59,7 +59,7 @@ auto getOpions(int argc, char** argv)
 template <typename T>
 void greet(std::ostream & ostr, const T& name, std::optional<Style> style)
 {
-    ostr << "Hello, ";
+    ostr << "Kaixo ";
     if (style)
         ostr << StyledText{*style, name};
     else

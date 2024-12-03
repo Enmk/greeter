@@ -1,0 +1,7 @@
+/home/aitor/Projects/src/greeter/build/CMakeFiles/greeter.dir
+/home/aitor/Projects/src/greeter/build/CMakeFiles/edit_cache.dir
+/home/aitor/Projects/src/greeter/build/CMakeFiles/rebuild_cache.dir
+/home/aitor/Projects/src/greeter/build/CMakeFiles/list_install_components.dir
+/home/aitor/Projects/src/greeter/build/CMakeFiles/install.dir
+/home/aitor/Projects/src/greeter/build/CMakeFiles/install/local.dir
+/home/aitor/Projects/src/greeter/build/CMakeFiles/install/strip.dir
